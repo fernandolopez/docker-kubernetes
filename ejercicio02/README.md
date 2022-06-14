@@ -27,3 +27,9 @@ docker push felopez/docker-ejercicio02
 6. Resultado
 
 https://hub.docker.com/repository/docker/felopez/docker-ejercicio02
+
+7. Para descargar la imagen resultante
+
+```
+docker pull felopez/docker-ejercicio02
+```
