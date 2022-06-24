@@ -98,3 +98,16 @@ Finalmente contesta:
 * Dado que cada contenedor corre en forma aislada ¿Cómo es posible que esos contenedores se vean entre sí?
 
 Escribe tus respuestas ejercicio07/README.md en tu repositorio github y entrega el link directo al archivo.
+
+Ejercicio 8: Creación de cluster balanceado
+-------------------------------------------
+
+Utilizando docker compose generar una configuración para correr dos instancias de passwordapi balanceadas por Nginx.
+La aplicación tiene un endpoint /health que indica la ip/host de la instancia que atendió el pedido, se puede usar esto para verificar el correcto balanceo.
+
+Poner la solución en un carpeta ejercicio08, incluyendo:
+
+* la configuración de compose
+* el README.md con la forma correrlo y cualquier explicación que consideres relevante. 
+
+Entregar el link directo a la carpeta en el repositorio.
